@@ -21,4 +21,6 @@ export interface CarouselProps {
     onLastSlide?: any,
     infinite?: boolean,
     async?: boolean,
+    autoplay?:boolean,
+    interval?:boolean
 }
