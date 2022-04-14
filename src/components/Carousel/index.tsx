@@ -128,7 +128,7 @@ export default function Carousel({children,
             clearTimeout(timeout);
         }
         
-    }, [autoplay, currentSlide, interval, moveRight])
+    }, [autoplay, currentSlide, interval])
     
     return(
         <div style={styles.root}>
