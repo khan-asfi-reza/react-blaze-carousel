@@ -1,7 +1,7 @@
 <div align="center">
 <img src="public/logo.png" height="150" alt=""/>
 <h1>
-react-slider
+react-blaze-carousel
 </h1>
 <p>
 React based lightweight carousel slider
@@ -20,11 +20,11 @@ React based lightweight carousel slider
 ## Installation
 
 ```shell
-$ npm i @khan-asfi-reza/react-slider
+$ npm i react-blaze-carousel
 ```
 Or
 ```shell
-$ yarn add @khan-asfi-reza/react-slider
+$ yarn add react-blaze-carousel
 ```
 
 ## Docs 📕
@@ -101,7 +101,7 @@ it can be a number as well, which will work for every screen orientation
 ### Example
 
 ```jsx
-import Carousel from "react-slider";
+import Carousel from "react-blaze-carousel";
 
 
 <Carousel gap slidesInViewport={2}>
