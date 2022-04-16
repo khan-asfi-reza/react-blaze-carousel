@@ -72,6 +72,7 @@
   },
   "description": "React blaze carousel - lightweight carousel with many features",
   "main": "src/index.ts",
+  "types": "src/index.d.ts",
   "directories": {
     "doc": "docs"
   },

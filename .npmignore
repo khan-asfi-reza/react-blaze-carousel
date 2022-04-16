@@ -6,3 +6,6 @@ node_modules
 src/stories
 src/tests
 .idea
+AUTHOR
+LICENSE
+.github
