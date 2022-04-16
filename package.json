@@ -1,6 +1,6 @@
 {
   "name": "react-blaze-carousel",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "dependencies": {
 
   },
@@ -70,23 +70,23 @@
     "typescript": "^4.6.3",
     "web-vitals": "^2.1.4"
   },
-  "description": "<div align=\"center\"> <img src=\"public/logo.png\" height=\"150\" alt=\"\"/> <h1> react-slider </h1> <img src=\"https://github.com/khan-asfi-reza/react-slider/actions/workflows/test.yaml/badge.svg\" alt=\"\"/> <p> React based lightweight carousel slider </p> </div>",
+  "description": "React blaze carousel - lightweight carousel with many features",
   "main": "src/index.ts",
   "directories": {
     "doc": "docs"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/khan-asfi-reza/react-slider.git"
+    "url": "git+https://github.com/khan-asfi-reza/react-blaze-carousel.git"
   },
   "keywords": [
     "react",
     "carousel"
   ],
   "author": "Khan Asfi Reza",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/khan-asfi-reza/react-slider/issues"
+    "url": "https://github.com/khan-asfi-reza/react-blaze-carousel/issues"
   },
-  "homepage": "https://github.com/khan-asfi-reza/react-slider#readme"
+  "homepage": "https://github.com/khan-asfi-reza/react-blaze-carousel#readme"
 }
