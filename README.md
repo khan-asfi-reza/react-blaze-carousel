@@ -3,7 +3,6 @@
 <h1>
 react-slider
 </h1>
-<img src="https://github.com/khan-asfi-reza/react-slider/actions/workflows/test.yaml/badge.svg" alt=""/>
 <p>
 React based lightweight carousel slider
 </p>
@@ -17,6 +16,16 @@ React based lightweight carousel slider
 3. Autoplay with interval control
 4. No need to add any stylesheet
 5. Lightweight
+
+## Installation
+
+```shell
+$ npm i @khan-asfi-reza/react-slider
+```
+Or
+```shell
+$ yarn add @khan-asfi-reza/react-slider
+```
 
 ## Docs 📕
 

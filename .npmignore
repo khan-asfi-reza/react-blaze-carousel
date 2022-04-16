@@ -3,3 +3,6 @@ docs
 public
 node_modules
 .env
+src/stories
+src/tests
+.idea
