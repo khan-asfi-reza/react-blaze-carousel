@@ -5,7 +5,7 @@ react-slider
 </h1>
 
 <p>
-React based carousel slider, with async forward loading
+React based lightweight carousel slider
 </p>
 </div>
 
