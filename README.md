@@ -1,5 +1,5 @@
 <div align="center">
-<img src="public/logo.png" height="150" alt=""/>
+<img src="assets/logo.png" height="150" alt=""/>
 <h1>
 react-blaze-carousel
 </h1>
