@@ -1,14 +1,11 @@
 {
   "name": "react-blaze-carousel",
-  "version": "0.1.2",
-  "dependencies": {
-
-  },
+  "version": "0.1.3",
+  "dependencies": {},
   "scripts": {
-    "start": "react-scripts start -FAST_REFRESH=false",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "prepack": "yarn build",
+    "build": "rollup -c",
+    "watch": "rollup -cw",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public -o /docs"
   },
@@ -41,6 +38,8 @@
     ]
   },
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.1.0",
+    "@rollup/plugin-node-resolve": "^13.2.1",
     "@storybook/addon-actions": "^6.4.22",
     "@storybook/addon-essentials": "^6.4.22",
     "@storybook/addon-interactions": "^6.4.22",
@@ -51,10 +50,6 @@
     "@storybook/preset-create-react-app": "^4.1.0",
     "@storybook/react": "^6.4.22",
     "@storybook/testing-library": "0.0.9",
-    "@types/enzyme": "^3.10.12",
-    "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.6",
-    "webpack": "^5.72.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^13.5.0",
@@ -64,18 +59,25 @@
     "@types/react-dom": "^18.0.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-responsive-carousel": "^3.2.23",
     "react-scripts": "5.0.1",
+    "rollup": "^2.70.2",
+    "rollup-plugin-typescript2": "^0.31.2",
     "storybook": "^6.4.22",
     "typescript": "^4.6.3",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "webpack": "^5.72.0"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
   },
   "description": "React blaze carousel - lightweight carousel with many features",
-  "main": "src/index.ts",
-  "types": "src/index.d.ts",
-  "directories": {
-    "doc": "docs"
-  },
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "types": "./lib/esm/index.d.ts",
+  "files": [
+    "/lib"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/khan-asfi-reza/react-blaze-carousel.git"
